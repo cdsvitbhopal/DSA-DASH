@@ -54,7 +54,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid black;
+	border: 2px solid white;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -103,12 +103,39 @@ nav-item:hover{
 
 
 }
+.reg{
+	font-size: 2rem;
+	font-weight: bold;
+	color: black;
+}
+.reg2{
+	height: 10%;
+	width: 30%;
+}
 @media screen and (max-width: 1300px) {
 
 	.navi{
 	font-size: 80%;
 		font-weight:normal;
   }
+}
+@media screen and (max-width: 500px){
+	.reg{
+		font-size: 1rem;
+		font-weight: bold;
+		color: black;
+	}
+	.reg2{
+		height: 10%;
+		width: 30%;
+	}
+	.cta {
+		padding: 10px 30px;
+		font-size: 1rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+		margin-top: 30px;
+	}
 }
 
 /* Hero Section */
